@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cssgame-deployment
+  labels:
+    app: cssgame
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cssgame
+  template:
+    metadata:
+      labels:
+        app: cssgame
+    spec:
+      containers:
+        - name: cssgame
+          image: akkiseven/css-stack-game:v1
+          ports:
+            - containerPort: 80

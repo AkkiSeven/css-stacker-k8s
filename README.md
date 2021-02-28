@@ -1,2 +1,3 @@
-# css-stacker-k8s
-Stack game made using only HTML and CSS.
+# cssgame-k8s
+
+cssgame game using k8s and docker image.
