@@ -8,3 +8,7 @@ Runs on port 80
 To pull the image, run:
 
 `docker pull akkiseven/css-stack-game`
+
+<hr>
+
+## Hope you enjoy the game!!!
