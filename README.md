@@ -1,3 +1,10 @@
-# cssgame-k8s
+# CSS Stacker
+### <em>"</em> The game made using only HTML and CSS.
+<hr>
+This image is built using the OS Nginx.
 
-cssgame game using k8s and docker image.
+Runs on port 80
+
+To pull the image, run:
+
+`docker pull akkiseven/css-stack-game`
